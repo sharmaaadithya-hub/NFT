@@ -1,0 +1,167 @@
+.TopCreatorContainer {
+  max-width: 1200px;
+  margin-top: 200px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1340px) {
+  .TopCreatorcards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.topCreatorHeader {
+  font-size: 40px;
+  font-family: Roboto;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.topCreatorPara {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  font-size: 20px;
+  font-family: Roboto;
+  margin-bottom: 22px;
+  margin-bottom: 30px;
+}
+
+.TopCreatorcards {
+  display: flex;
+  margin-top: 30px;
+  gap: 12.5px;
+}
+
+.TopCreatorcard1 {
+  width: 389px;
+  height: 525px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  max-width: 395px;
+  transition: 0.2s;
+}
+
+.TopCreatorcard1:hover {
+  transform: scale(0.8);
+}
+
+.TopCreatorcard2 {
+  width: 389px;
+  height: 525px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.TopCreatorcard2:hover {
+  transform: scale(0.8);
+}
+
+.topimg1 {
+  width: 389px;
+  height: 261px;
+  background-image: url("../../assets/creator1.png");
+  background-size: contain;
+}
+
+.topimg2 {
+  width: 389px;
+  height: 261px;
+  background-image: url("../../assets/creator2.png");
+  background-size: contain;
+}
+
+.topimg3 {
+  width: 389px;
+  height: 261px;
+  background-image: url("../../assets/creator3.png");
+  background-size: contain;
+}
+
+.topRoundImg1 {
+  width: 99px;
+  height: 99px;
+  border-radius: 50%;
+  position: absolute;
+  top: 206px;
+  left: 145px;
+  background-image: url("../../assets/photo1.png");
+  background-size: contain;
+}
+
+.topRoundImg2 {
+  width: 99px;
+  height: 99px;
+  border-radius: 50%;
+  position: absolute;
+  top: 206px;
+  left: 145px;
+  background-image: url("../../assets/photo2.png");
+  background-size: contain;
+}
+
+.topRoundImg3 {
+  width: 99px;
+  height: 99px;
+  border-radius: 50%;
+  position: absolute;
+  top: 206px;
+  left: 145px;
+  background-image: url("../../assets/photo3.png");
+  background-size: contain;
+}
+
+.TopCreatorCardContent {
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 64px;
+}
+
+.TopCreatorCardContent h1 {
+  font-size: 20px;
+  font-family: Roboto;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.TopCreatorCardContent p {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  font-size: 15px;
+  font-family: Roboto;
+  margin-bottom: 22px;
+}
+
+.TopCreatorcard1 button {
+  width: 337px;
+  height: 50px;
+  background-color: #671ae4;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0px 26px 42px 26px;
+  border: none;
+  cursor: pointer;
+}
+
+.TopCreatorcard2 button {
+  width: 337px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  color: #671ae4;
+  margin: 0px 26px 42px 26px;
+  border: 2px solid #671ae4;
+  cursor: pointer;
+}

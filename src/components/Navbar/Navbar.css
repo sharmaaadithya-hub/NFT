@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navContainer {
+  max-width: 1197px;
+  width: 100%;
+  align-items: center;
+  margin-top: 25px;
+  margin-inline: auto;
+}
+
+.logo {
+  font-size: 26px;
+  color: #9a31f0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.firstWord {
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.nav-links a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ddd;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+.navContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigationBar {
+  display: flex;
+  gap: 25px;
+}
+.navButton {
+  margin: auto;
+}
+
+.search {
+  border: none;
+}
+#text {
+  width: 332px;
+  border-radius: 6px;
+  border: none;
+  padding: 10px 52px 10px 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  opacity: 1;
+}
+
+#connectbtn {
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
+  gap: 10px;
+  font-size: 20px;
+}
+
+.navHamburger {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 998px) {
+  .navButton {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .menuMobile {
+    position: absolute;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    list-style: none;
+  }
+
+  .menuMobile a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ddd;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+  }
+  .nav-links {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #text {
+    width: 200px;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 52px 10px 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    opacity: 1;
+  }
+}

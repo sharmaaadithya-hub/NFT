@@ -1,0 +1,86 @@
+.aboutSection {
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 998px) {
+  .AboutDataImage {
+    aspect-ratio: 390/500;
+  }
+
+  .AboutData {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+}
+
+.aboutContainer {
+  text-align: center;
+  max-width: 1198px;
+  width: 100%;
+}
+
+.aboutHeader {
+  font-size: 40px;
+  font-family: Roboto;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.aboutPara {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  font-size: 20px;
+  font-family: Roboto;
+}
+
+.AboutData {
+  margin-top: 30px;
+  display: flex;
+  gap: 119px;
+  align-items: center;
+  margin-inline: auto;
+}
+
+.AboutDataImage {
+  aspect-ratio: 490/600;
+  width: 100%;
+  background-image: url("../../assets/Group 18.png");
+  background-size: cover;
+}
+
+.AboutDatapara {
+  max-width: 550px;
+}
+
+.AboutDatapara h1 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.AboutDatapara p {
+  margin-top: 10px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 180%;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: start;
+}
+
+.AboutDatapara button {
+  padding: 10px 20px 10px 20px;
+  background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
+  border-radius: 10px;
+  border: none;
+  margin-top: 30px;
+  color: #ffffff;
+  font-family: Poppins;
+  cursor: pointer;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+}

@@ -1,0 +1,114 @@
+.FeatureContainer {
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 300px;
+}
+
+@media screen and (max-width: 1340px) {
+  .FeatureCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.featureHeader {
+  font-size: 40px;
+  font-family: Roboto;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.featurePara {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  font-size: 20px;
+  font-family: Roboto;
+}
+
+.FeatureCard {
+  display: flex;
+  margin-top: 45px;
+}
+
+.cards {
+  width: 389px;
+  height: 595px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-right: 11px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.cards3 {
+  width: 389px;
+  height: 595px;
+  opacity: 1.9;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-right: 11px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.FeatureCardImg1 {
+  width: 337px;
+  height: 380px;
+  margin: 26px 26px 0px 26px;
+
+  align-items: end;
+  background-image: url("../../assets/Rectangle 23.png");
+  background-size: contain;
+}
+.FeatureCardData {
+  width: 337px;
+  display: flex;
+  margin: 20px 26px 23px 26px;
+  gap: 78px;
+}
+
+.data1 p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.data1 h1 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.data2 p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.data2 h1 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.FeatuecardBtn {
+  width: 337px;
+  height: 45px;
+  margin: 0px 26px 26px 26px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
+  border: none;
+  color: white;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+}

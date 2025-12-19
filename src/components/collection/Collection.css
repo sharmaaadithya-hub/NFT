@@ -1,0 +1,276 @@
+.collection {
+  margin-top: 200px;
+  max-width: 1220px;
+}
+
+@media screen and (max-width: 1340px) {
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .collectionNav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.collectionContainer {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.collectionHeader {
+  font-size: 40px;
+  font-family: Roboto;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.collectionPara {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  font-size: 20px;
+  font-family: Roboto;
+  margin-bottom: 30px;
+}
+
+.collectionNav {
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.collectionNav button {
+  width: 288px;
+  height: 40px;
+}
+
+#btn1 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  padding: 5px 70px 5px 70px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#btn2 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #9a31f0;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  padding: 5px 70px 5px 70px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#btn3 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  padding: 5px 70px 5px 70px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#btn4 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  padding: 5px 70px 5px 70px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.collectionCard {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px 3px;
+}
+
+.card {
+  max-width: 389px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  gap: 9px 15px;
+}
+
+.cardImg1 {
+  max-width: 337px;
+  width: 100%;
+  aspect-ratio: 337/380;
+  margin: 26px 26px 0px 26px;
+  align-items: end;
+  background-image: url("../../assets/Rectangle 23.png");
+  background-size: contain;
+}
+
+.cardImg2 {
+  max-width: 337px;
+  width: 100%;
+  aspect-ratio: 337/380;
+  margin: 26px 26px 0px 26px;
+  align-items: end;
+  background-image: url("../../assets/collection2.png");
+  background-size: contain;
+}
+
+.cardImg3 {
+  max-width: 337px;
+  width: 100%;
+  aspect-ratio: 337/380;
+  margin: 26px 26px 0px 26px;
+
+  align-items: end;
+  background-image: url("../../assets/collection3.png");
+  background-size: contain;
+}
+.cardImg4 {
+  max-width: 337px;
+  width: 100%;
+  aspect-ratio: 337/380;
+  margin: 26px 26px 0px 26px;
+
+  align-items: end;
+  background-image: url("../../assets/collection4.png");
+  background-size: contain;
+}
+.cardImg5 {
+  max-width: 337px;
+  width: 100%;
+  aspect-ratio: 337/380;
+  margin: 26px 26px 0px 26px;
+  align-items: end;
+  background-image: url("../../assets/collection5.png");
+  background-size: contain;
+}
+.cardImg6 {
+  max-width: 337px;
+  width: 100%;
+  aspect-ratio: 337/380;
+  margin: 26px 26px 0px 26px;
+
+  align-items: end;
+  background-image: url("../../assets/collection6.png");
+  background-size: contain;
+}
+.cardImg7 {
+  max-width: 337px;
+  width: 100%;
+  aspect-ratio: 337/380;
+  margin: 26px 26px 0px 26px;
+
+  align-items: end;
+  background-image: url("../../assets/collection7.png");
+  background-size: contain;
+}
+.cardImg8 {
+  max-width: 337px;
+  width: 100%;
+  aspect-ratio: 337/380;
+  margin: 26px 26px 0px 26px;
+
+  align-items: end;
+  background-image: url("../../assets/collection8.png");
+  background-size: contain;
+}
+
+.cardImg9 {
+  max-width: 337px;
+  width: 100%;
+  aspect-ratio: 337/380;
+  margin: 26px 26px 0px 26px;
+
+  align-items: end;
+  background-image: url("../../assets/collection9.png");
+  background-size: contain;
+}
+
+.cardData {
+  max-width: 337px;
+  width: 100%;
+  display: flex;
+  margin: 20px 26px 23px 26px;
+  gap: 78px;
+}
+
+.data1 p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 10px;
+}
+
+.data1 h1 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.data2 p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.data2 h1 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.cardBtn {
+  max-width: 337px;
+  width: 100%;
+  margin: 0px 26px 26px 26px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
+  border: none;
+  color: white;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+.cardBtn5 {
+  width: 337px;
+  height: 45px;
+  margin: 0px 26px 26px 26px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #671ae4;
+  color: #671ae4;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}

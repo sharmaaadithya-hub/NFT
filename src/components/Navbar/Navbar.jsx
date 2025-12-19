@@ -1,0 +1,44 @@
+import React from 'react'
+import './Navbar.css'
+import Hamburger from 'hamburger-react'
+import { useState } from 'react'
+const Navbar = () => {
+
+  const [isOpen, setOpen] = useState(false);
+
+  const toggleMenu = () => {
+    console.log(isOpen);
+    setOpen(!isOpen);
+  };
+
+  return (
+
+    <>
+      <header>
+        <div className="navContainer">
+          <h1 className="logo"><span className='firstWord'>Pysco</span>Art</h1>
+          <div className='search'>
+            <form action=""><input id='text' type="text" placeholder=" Search items and collections" name='text' />
+            </form>
+          </div>
+          <div className='navigationBar' >
+
+            <ul className={isOpen ? "menuMobile" : "nav-links"}>
+              <li><a href="">Collection</a></li>
+              <li><a href="">Feature</a></li>
+              <li><a href="">Faq</a></li>
+            </ul>
+
+            <div className='navButton'><button id="connectbtn">Select Wallet</button></div>
+          </div>
+
+          <div className="hamburger">
+            <button className='navHamburger' onClick={toggleMenu}> <Hamburger /></button>
+          </div>
+        </div>
+      </header>
+    </>
+  )
+}
+
+export default Navbar

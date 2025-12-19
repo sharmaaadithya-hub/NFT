@@ -1,0 +1,26 @@
+.sponsoredContainer {
+  max-width: 1197px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 150px;
+  justify-content: space-between;
+}
+#sponsoredImg1 {
+  aspect-ratio: 396/60;
+}
+#sponsoredImg2 {
+  aspect-ratio: 192/62;
+}
+#sponsoredImg3 {
+  aspect-ratio: 299/60;
+}
+
+@media screen and (max-width: 998px) {
+  .sponsoredContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}

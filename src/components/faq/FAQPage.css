@@ -1,0 +1,84 @@
+.FaqContainer {
+  max-width: 1197px;
+  width: 100%;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.faqHeader {
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 40px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.faqPara {
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.leftFaqList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 17px;
+  grid-row-gap: 48px;
+}
+
+.leftFaqList div p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.FaqGrid1 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 20px;
+}
+
+.FaqWrapper {
+  max-width: 1197px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.FaqItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.FaqTitle {
+  max-width: 590px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.FaqAns {
+  display: none;
+  max-height: 0;
+  transition: all 2s ease-in;
+}
+
+.FaqAns.show {
+  display: block;
+  max-height: 999px;
+  transition: all 2s ease-out;
+}
+
+@media screen and (max-width: 1220px) {
+  .FaqWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    align-items: center;
+  }
+}
