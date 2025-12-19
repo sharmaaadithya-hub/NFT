@@ -10,6 +10,9 @@ body {
   align-items: center;
   margin-top: 25px;
   margin-inline: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -36,10 +39,6 @@ body {
   text-decoration: none;
   padding: 8px 12px;
   border-radius: 6px;
-}
-.navContainer {
-  display: flex;
-  justify-content: space-around;
 }
 
 .navigationBar {
