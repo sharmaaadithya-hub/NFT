@@ -15,7 +15,7 @@ const Navbar = () => {
 
     <>
       <header>
-        <div className="navContainer">
+        <div className="navContainer container">
           <h1 className="logo"><span className='firstWord'>Pysco</span>Art</h1>
           <div className='search'>
             <form action=""><input id='text' type="text" placeholder=" Search items and collections" name='text' />
@@ -24,6 +24,10 @@ const Navbar = () => {
           <div className='navigationBar' >
 
             <ul className={isOpen ? "menuMobile" : "nav-links"}>
+
+              {isOpen && <div className='closeIcon'><button onClick={toggleMenu}><i className='closeImage' class="fa-solid fa-xmark"></i></button></div>
+
+              }
               <li><a href="">Collection</a></li>
               <li><a href="">Feature</a></li>
               <li><a href="">Faq</a></li>
@@ -33,7 +37,7 @@ const Navbar = () => {
           </div>
 
           <div className="hamburger">
-            <button className='navHamburger' onClick={toggleMenu}> <Hamburger /></button>
+            <button className='navHamburger' onClick={toggleMenu}> <i className='humbergerIcon' class="fa-solid fa-bars"></i></button>
           </div>
         </div>
       </header>

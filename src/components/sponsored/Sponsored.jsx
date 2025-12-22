@@ -7,7 +7,7 @@ function Sponsored() {
   return (
     <section className='SponsoredSection'>
       <div className='sponsoredContainer container'>
-        <img id='sponsoredImg1' src={logo3} alt="" />
+        <img className='sponsoredImg1' src={logo3} alt="" />
         <img id='sponsoredImg2' src={logo2} alt="" />
         <img id='sponsoredImg3' src={logo1} alt="" />
       </div>

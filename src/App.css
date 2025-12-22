@@ -10,3 +10,11 @@
   padding-inline: 20px;
   margin-inline: auto;
 }
+
+@media  screen and (max-width:992px) {
+
+  .container{
+    padding-inline:40px;
+  }
+  
+}
