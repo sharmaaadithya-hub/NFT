@@ -2,18 +2,6 @@
   margin-top: 150px;
 }
 
-@media screen and (max-width: 998px) {
-  .AboutDataImage {
-    aspect-ratio: 390/500;
-  }
-
-  .AboutData {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-  }
-}
-
 .aboutContainer {
   text-align: center;
   max-width: 1198px;
@@ -83,4 +71,58 @@
   font-family: Roboto;
   font-weight: 500;
   font-size: 20px;
+  align-items: start;
+}
+
+@media screen and (max-width: 1024px){
+  .aboutSection {
+  margin-top: 100px;
+}
+
+.AboutDataImage {
+    max-width: 600px;
+    aspect-ratio: 390/500;
+  }
+
+
+}
+
+@media screen and (max-width: 998px) {
+  .aboutSection {
+    margin-top: 100px;
+  }
+
+
+  .AboutData {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 50px;
+  }
+
+
+}
+
+@media screen and (max-width: 540px){
+
+  .AboutDataImage {
+    max-width: 340px;
+    aspect-ratio: 390/500;
+  }
+  .AboutDatapara h1{
+     font-weight: 600;
+     font-size: 20px;
+  }
+
+  .AboutDatapara p{
+    font-weight: 500;
+  font-size: 15px;
+  }
+
+   .AboutDatapara button{
+     font-weight: 500;
+     font-size: 15px;
+     margin-top: 20px;
+  }
+
 }

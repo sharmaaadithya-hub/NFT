@@ -71,14 +71,37 @@
 .FaqAns.show {
   display: block;
   max-height: 999px;
-  transition: all 2s ease-out;
+  transition: all 2s ease-in;
 }
 
 @media screen and (max-width: 1220px) {
-  .FaqWrapper {
-    display: flex;
-    flex-direction: column;
-    margin-inline: auto;
-    align-items: center;
+  .FaqWrapper{
+    margin: auto;
   }
+  .leftFaqList {
+    max-width: 400px;
+    width: 100%;
+    display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: repeat(6, 1fr);
+   grid-row-gap: 80px;
+   justify-self: center;
+  }
+
+  .FaqTitle {
+  max-width: 590px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.FaqAns.show {
+  max-width: 100px;
+  width: 100px;
+  display: block;
+  max-height: 999px;
+  transition: all 2s ease-out;
+}
 }

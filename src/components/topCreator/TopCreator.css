@@ -12,6 +12,12 @@
   }
 }
 
+@media screen and (max-width: 1024px){
+  .TopCreatorContainer{
+    margin-top: 100px;
+  }
+}
+
 .topCreatorHeader {
   font-size: 40px;
   font-family: Roboto;

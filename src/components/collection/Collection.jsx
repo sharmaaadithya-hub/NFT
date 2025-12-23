@@ -5,7 +5,7 @@ function Collection() {
     <>
       <section className='collectionSection'>
         <div className="collectionContainer container">
-          <h1 className='collectionHeader'>Colleaction</h1>
+          <h1 className='collectionHeader'>Collection</h1>
           <p className='collectionPara'>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit.</p>
           <div className='collectionNav'>
             <button id='btn1'>Art</button>

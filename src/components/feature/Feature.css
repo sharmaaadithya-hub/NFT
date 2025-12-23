@@ -4,13 +4,7 @@
   margin-top: 300px;
 }
 
-@media screen and (max-width: 1340px) {
-  .FeatureCard {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
+
 .featureHeader {
   font-size: 40px;
   font-family: Roboto;
@@ -111,4 +105,33 @@
   font-family: Poppins;
   font-weight: 500;
   font-size: 16px;
+}
+
+@media screen and (max-width: 1340px) {
+  .FeatureCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .FeatureContainer {
+  margin-top: 200px;
+}
+}
+
+@media screen and (max-width: 920px) {
+.FeatureContainer {
+  margin-top: 100px;
+}}
+
+@media screen and (max-width: 540px) {
+.FeatureContainer {
+  margin-top: 80px;
+}
+
+.FeatureCard {
+  display: flex;
+  margin-top: 30px;
+}
+
 }
