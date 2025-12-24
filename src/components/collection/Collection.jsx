@@ -143,7 +143,7 @@ function Collection() {
               <button className='cardBtn'>Place a bid</button>
             </div>
             {/* card9*/}
-            <div className='card'>
+            <div className='card9'>
               <div className='cardImg9'>
               </div>
               <div className='cardData'>

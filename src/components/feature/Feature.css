@@ -1,9 +1,8 @@
 .FeatureContainer {
   margin-bottom: 30px;
   text-align: center;
-  margin-top: 300px;
+  margin-top: 200px;
 }
-
 
 .featureHeader {
   font-size: 40px;
@@ -25,18 +24,18 @@
 }
 
 .cards {
-  width: 389px;
-  height: 595px;
+  max-width: 389px;
+  width: 100%;
   background-color: rgba(255, 255, 255, 0.1);
-  margin-right: 11px;
+  margin-right: 4px;
   margin-bottom: 15px;
   border-radius: 10px;
   transition: 1s;
 }
 
 .cards3 {
-  width: 389px;
-  height: 595px;
+  max-width: 389px;
+  width: 100%;
   opacity: 1.9;
   background-color: rgba(255, 255, 255, 0.1);
   margin-right: 11px;
@@ -55,7 +54,8 @@
   background-size: contain;
 }
 .FeatureCardData {
-  width: 337px;
+  max-width: 337px;
+  width: 100%;
   display: flex;
   margin: 20px 26px 23px 26px;
   gap: 78px;
@@ -109,29 +109,35 @@
 
 @media screen and (max-width: 1340px) {
   .FeatureCard {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
     justify-content: center;
   }
 
   .FeatureContainer {
-  margin-top: 200px;
+    margin-top: 200px;
+  }
 }
+
+@media screen and (max-width: 1022) {
 }
 
 @media screen and (max-width: 920px) {
-.FeatureContainer {
-  margin-top: 100px;
-}}
+  .FeatureContainer {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .FeatureCard {
+    display: grid;
+    grid-template-columns: repeat(1, 0.4fr);
+    justify-content: center;
+  }
+}
 
 @media screen and (max-width: 540px) {
-.FeatureContainer {
-  margin-top: 80px;
-}
-
-.FeatureCard {
-  display: flex;
-  margin-top: 30px;
-}
-
+  .FeatureContainer {
+    margin-top: 80px;
+  }
 }

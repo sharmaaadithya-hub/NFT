@@ -31,6 +31,12 @@ body {
   gap: 35px;
 }
 
+.nav-links li a:hover {
+  transition: 0.4s ease-in-out;
+  text-decoration: underline;
+  color: #a784df;
+}
+
 .nav-links a {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
@@ -56,6 +62,7 @@ body {
   width: 332px;
   border-radius: 6px;
   border: none;
+  outline: none;
   padding: 10px 52px 10px 10px;
   background-color: rgba(255, 255, 255, 0.1);
   opacity: 1;
@@ -78,6 +85,12 @@ body {
   border: none;
   font-size: 25px;
 }
+
+#connectbtn:hover {
+  transform: scale(1.1);
+  transition: 0.7s ease-in-out;
+}
+
 .hamburger {
   display: none;
 }
@@ -110,8 +123,8 @@ body {
     transition: 0.2s;
     transform: translateX(10px);
   }
-   
-  .menuMobile li{
+
+  .menuMobile li {
     margin-left: 39px;
   }
 
@@ -184,13 +197,12 @@ body {
     margin: auto;
   }
 
-   .menuMobile a:hover {
+  .menuMobile a:hover {
     text-decoration: underline;
   }
 
-
   .menuMobile li {
-   margin-left: 209px;
+    margin-left: 209px;
   }
 
   .closeIcon {

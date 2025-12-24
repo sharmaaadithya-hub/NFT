@@ -23,7 +23,7 @@ function Feature() {
                 <h1>0.005 ETH</h1>
               </div>
             </div>
-            <button className='FeatuecardBtn'>Place a bid</button>
+            <button className='cardBtn'>Place a bid</button>
           </div>
           {/* card2 */}
           <div className='cards'>

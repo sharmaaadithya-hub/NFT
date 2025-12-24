@@ -28,7 +28,7 @@ const Navbar = () => {
               {isOpen && <div className='closeIcon'><button onClick={toggleMenu}><i className='closeImage' class="fa-solid fa-xmark"></i></button></div>
 
               }
-              <li><a href="">Collection</a></li>
+              <li className='collection'><a href="">Collection</a></li>
               <li><a href="">Feature</a></li>
               <li><a href="">Faq</a></li>
             </ul>

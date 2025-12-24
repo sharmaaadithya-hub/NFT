@@ -4,12 +4,16 @@ import logo2 from '../../assets/Ethereum logo.svg'
 import logo3 from '../../assets/Binance_logo logo.svg'
 import './sponsored.css'
 function Sponsored() {
+
+
   return (
     <section className='SponsoredSection'>
       <div className='sponsoredContainer container'>
         <img className='sponsoredImg1' src={logo3} alt="" />
         <img id='sponsoredImg2' src={logo2} alt="" />
         <img id='sponsoredImg3' src={logo1} alt="" />
+        <button><i class="fa-solid fa-angle-left" ></i></button>
+        <button><i class="fa-solid fa-angle-right"></i></button>
       </div>
     </section>
   )

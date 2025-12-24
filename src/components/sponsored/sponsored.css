@@ -17,8 +17,8 @@
   aspect-ratio: 299/60;
 }
 
-@media screen and (max-width: 1024px){
-  .sponsoredContainer{
+@media screen and (max-width: 1024px) {
+  .sponsoredContainer {
     margin-top: 100px;
   }
 }
@@ -30,42 +30,38 @@
     gap: 10px;
   }
 
-   .sponsoredImg1 {
+  .sponsoredImg1 {
     max-width: 170px;
-  aspect-ratio: 384/57;
-}
+    aspect-ratio: 384/57;
+  }
 
-#sponsoredImg2 {
-  max-width: 170px;
-  aspect-ratio: 250/70;
-}
-#sponsoredImg3 {
-  max-width: 190px;
-  aspect-ratio: 345/38;
-}
-
+  #sponsoredImg2 {
+    max-width: 170px;
+    aspect-ratio: 250/70;
+  }
+  #sponsoredImg3 {
+    max-width: 190px;
+    aspect-ratio: 345/38;
+  }
 }
 
 @media screen and (max-width: 540px) {
   .sponsoredContainer {
     display: flex;
     flex-direction: column;
-    margin-top:100px;
+    margin-top: 100px;
     gap: 13px;
     justify-content: start;
   }
 
   .sponsoredImg1 {
-  aspect-ratio: 480/60;
-}
+    aspect-ratio: 480/60;
+  }
 
-#sponsoredImg2 {
-  aspect-ratio: 250/70;
-}
-#sponsoredImg3 {
-  aspect-ratio: 345/38;
-}
-
-
- 
+  #sponsoredImg2 {
+    aspect-ratio: 250/70;
+  }
+  #sponsoredImg3 {
+    aspect-ratio: 345/38;
+  }
 }

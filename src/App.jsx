@@ -8,6 +8,7 @@ import Collection from './components/collection/Collection'
 import Feature from './components/feature/Feature'
 import TopCreator from './components/topCreator/TopCreator'
 import FAQ from './components/faq/FAQPage'
+import Faq from './components/faq/Faq'  
 import CTA from './components/cta/CTA'
 import Footer from './components/footer/footer'
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Feature />
         <TopCreator />
         <FAQ />
+        <Faq/>
         <CTA />
         <Footer />
   

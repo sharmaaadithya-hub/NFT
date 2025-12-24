@@ -1,17 +1,23 @@
 .CTAcontainer {
   max-width: 1197px;
   width: 100%;
-   padding: 50px 0px 66px 0px;
+  padding: 50px 0px 66px 0px;
   border-radius: 10px;
- background-image: linear-gradient(to right top, #671ae4, #7e2ceb, #923df1, #a54cf8, #b75cff);
-  margin-top: 300px; 
+  background-image: linear-gradient(
+    to right top,
+    #671ae4,
+    #7e2ceb,
+    #923df1,
+    #a54cf8,
+    #b75cff
+  );
+  margin-top: 300px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 300px auto;
-  margin-inline:auto;
+  margin-inline: auto;
 }
 
 .ctaHeader {
@@ -34,18 +40,15 @@
   font-size: 20px;
   cursor: pointer;
 }
-@media screen and (max-width:1220px) {
-  .CTAcontainer{
-     max-width: calc(100% - 40px);
-     margin-top: 200px;
+@media screen and (max-width: 1220px) {
+  .CTAcontainer {
+    max-width: calc(100% - 40px);
+    margin-top: 200px;
   }
- 
 }
 
-@media screen and (max-width:1024px){
-  .CTAcontainer{
+@media screen and (max-width: 1024px) {
+  .CTAcontainer {
     margin-top: 100px;
   }
 }
-
-
