@@ -6,7 +6,7 @@ import logo2 from "../../assets/Ethereum logo copy.svg"
 import logo3 from "../../assets/Binance_logo logo.svg"
 // Import Swiper styles
 import 'swiper/css';
-import   './Sponsored.css'
+import   './sponsored.css'
 import { Autoplay } from 'swiper/modules';
 const SwiperComponent = () => {
  
