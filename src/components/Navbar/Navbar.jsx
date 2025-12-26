@@ -16,7 +16,7 @@ const Navbar = () => {
     <>
       <header>
         <div className="navContainer container">
-          <h1 className="logo"  ><span className='firstWord'>Pysco</span><a href="/logo">Art</a></h1>
+          <h1 className="logo"  ><span className='firstWord'>Pysco</span>Art</h1>
           <div className='search'>
             <form action=""><input id='text' type="text" placeholder=" Search items and collections" name='text' />
             </form>

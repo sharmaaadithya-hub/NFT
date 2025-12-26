@@ -1,8 +1,8 @@
 import React from 'react'
 import './footer.css'
 import Youtube from '../../assets/youtube.png'
-import discord from '../../assets/vector.png'
-import Instagram from '../../assets/vector (1).png'
+import discord from '../../assets/Vector.png'
+import Instagram from '../../assets/Vector (1).png'
 function Footer() {
   return (
     <>
