@@ -26,6 +26,7 @@
   font-style: bold;
   font-size: 50px;
   color: rgba(255, 255, 255, 1);
+  padding-inline: 20px;
 }
 
 .ctaBtn {
@@ -40,6 +41,12 @@
   font-size: 20px;
   cursor: pointer;
 }
+
+.ctaBtn:hover{
+    transform: Scale(1.1);
+   transition: 0.4s;
+}
+
 @media screen and (max-width: 1220px) {
   .CTAcontainer {
     max-width: calc(100% - 40px);

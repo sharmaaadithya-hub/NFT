@@ -35,6 +35,7 @@
   height: 40px;
 }
 
+
 #btn1 {
   font-family: Poppins;
   font-weight: 500;
@@ -47,6 +48,12 @@
   cursor: pointer;
 }
 
+#btn1:hover{
+  background-color: #9a31f0;
+  transition: 0.3s ease-in;
+}
+
+
 #btn2 {
   font-family: Poppins;
   font-weight: 500;
@@ -57,6 +64,11 @@
   padding: 5px 70px 5px 70px;
   border-radius: 10px;
   cursor: pointer;
+}
+
+#btn2:hover{
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: 0.3s ease-in;
 }
 
 #btn3 {
@@ -71,6 +83,11 @@
   cursor: pointer;
 }
 
+#btn3:hover{
+  background-color: #9a31f0;
+  transition: 0.3s ease-in;
+}
+
 #btn4 {
   font-family: Poppins;
   font-weight: 500;
@@ -81,6 +98,11 @@
   padding: 5px 70px 5px 70px;
   border-radius: 10px;
   cursor: pointer;
+}
+
+#btn4:hover{
+  background-color: #9a31f0;
+  transition: 0.3s ease-in;
 }
 
 .collectionCard {
@@ -98,95 +120,12 @@
   gap: 9px 15px;
 }
 
-.cardImg1 {
+.cardImg1{
   max-width: 337px;
   width: 100%;
   aspect-ratio: 337/380;
   margin: 26px 26px 0px 26px;
   align-items: end;
-  background-image: url("../../assets/Rectangle 23.png");
-  background-size: contain;
-}
-
-.cardImg2 {
-  max-width: 337px;
-  width: 100%;
-  aspect-ratio: 337/380;
-  margin: 26px 26px 0px 26px;
-  align-items: end;
-  background-image: url("../../assets/collection2.png");
-  background-size: contain;
-}
-
-.cardImg3 {
-  max-width: 337px;
-  width: 100%;
-  aspect-ratio: 337/380;
-  margin: 26px 26px 0px 26px;
-
-  align-items: end;
-  background-image: url("../../assets/collection3.png");
-  background-size: contain;
-}
-.cardImg4 {
-  max-width: 337px;
-  width: 100%;
-  aspect-ratio: 337/380;
-  margin: 26px 26px 0px 26px;
-
-  align-items: end;
-  background-image: url("../../assets/collection4.png");
-  background-size: contain;
-}
-.cardImg5 {
-  max-width: 337px;
-  width: 100%;
-  aspect-ratio: 337/380;
-  margin: 26px 26px 0px 26px;
-  align-items: end;
-  background-image: url("../../assets/collection5.png");
-  background-size: contain;
-}
-.cardImg6 {
-  max-width: 337px;
-  width: 100%;
-  aspect-ratio: 337/380;
-  margin: 26px 26px 0px 26px;
-
-  align-items: end;
-  background-image: url("../../assets/collection6.png");
-  background-size: contain;
-}
-.cardImg7 {
-  max-width: 337px;
-  width: 100%;
-  aspect-ratio: 337/380;
-  margin: 26px 26px 0px 26px;
-
-  align-items: end;
-  background-image: url("../../assets/collection7.png");
-  background-size: contain;
-}
-.cardImg8 {
-  max-width: 337px;
-  width: 100%;
-  aspect-ratio: 337/380;
-  margin: 26px 26px 0px 26px;
-
-  align-items: end;
-  background-image: url("../../assets/collection8.png");
-  background-size: contain;
-}
-
-.cardImg9 {
-  max-width: 337px;
-  width: 100%;
-  aspect-ratio: 337/380;
-  margin: 26px 26px 0px 26px;
-
-  align-items: end;
-  background-image: url("../../assets/collection9.png");
-  background-size: contain;
 }
 
 .cardData {
@@ -251,7 +190,6 @@
   background: rgba(255, 255, 255, 0.5);
   border: 2px solid #671ae4;
   color: #671ae4;
-  transition: 0.5s ease-in-out;
 }
 
 .cardBtn5 {
@@ -260,14 +198,21 @@
   margin: 0px 26px 26px 26px;
   padding: 10px 20px 10px 20px;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.5);
+  background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
   border: 1px solid #671ae4;
-  color: #671ae4;
+  color: white;
   font-family: Poppins;
   font-weight: 500;
   font-size: 16px;
   cursor: pointer;
 }
+
+.cardBtn5:hover{
+  background: rgba(255, 255, 255, 0.5);
+  border: 2px solid #671ae4;
+  color: #671ae4;
+}
+
 
 .card9 {
   max-width: 389px;
@@ -296,17 +241,10 @@
     align-items: center;
   }
 
-  /* .collectionNav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  } */
+
 }
 
 @media screen and (max-width: 1206px) {
-  .collection {
-    margin-top: 100px;
-  }
 
   .collectionCard {
     width: 100%;
@@ -337,6 +275,18 @@
     display: grid;
     gap: 4px 4px;
     justify-content: center;
-    grid-template-columns: repeat(1, 0.4fr);
+    grid-template-columns: repeat(1, auto);
   }
+ 
 }
+
+@media screen and (max-width: 540px){
+ .cardImg1 {
+        max-width: 280px;
+        width: 100%;
+        aspect-ratio: 360 / 334;
+        margin-inline: auto;
+    }
+
+
+  }

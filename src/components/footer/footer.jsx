@@ -33,8 +33,8 @@ function Footer() {
           <div className='footerContent'>
             <h2>Contact</h2>
             <ul>
-              <li><a href="">+012 3456789</a></li>
-              <li><a href="">adorableprogrammer@gmail.com</a></li>
+              <li><a href="tel:+012 3456789">+012 3456789</a></li>
+              <li><a href="mailto:adorableprogrammer@gmail.com" >adorableprogrammer@gmail.com </a></li>
               <li>
                 <div className='footerSocialMediaIcon'>
                   <a href=""><img src={Youtube} alt="" /></a>

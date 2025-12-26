@@ -50,22 +50,15 @@
   transition: 0.2s;
 }
 
-.TopCreatorcard1:hover {
-  transform: scale(0.99);
-}
-
 .TopCreatorcard2 {
   max-width: 389px;
   width: 100%;
   position: relative;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   transition: 0.2s;
 }
 
-.TopCreatorcard2:hover {
-  transform: scale(0.99);
-}
 
 .topimg1 {
   aspect-ratio: 389 / 261;
@@ -154,27 +147,36 @@
   cursor: pointer;
 }
 
-.TopCreatorcard1 button:active {
-  background: rgba(255, 255, 255, 0.5);
-  color: #671ae4;
-}
-
 .TopCreatorcard2 button {
   max-width: 337px;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #671ae4;
   padding: 10px 20px 10px 20px;
   border-radius: 10px;
   font-family: Poppins;
   font-weight: 500;
   font-size: 20px;
-  color: #671ae4;
+  color:#ffffff;
   margin: 0px 26px 42px 26px;
   border: 2px solid #671ae4;
   cursor: pointer;
 }
 
-.TopCreatorcard2 button:active {
-  background: rgba(255, 255, 255, 0.5);
-  color: #671ae4;
+#hover{
+  background: rgba(255, 255, 255, 0.5) !important;
+  color: #671ae4 ;
+   max-width: 337px;
+  width: 100%;
+  background-color: #671ae4;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0px 26px 42px 26px;
+  border: none;
+  cursor: pointer;
 }
+
+

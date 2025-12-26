@@ -53,6 +53,26 @@
   background-image: url("../../assets/Rectangle 23.png");
   background-size: contain;
 }
+
+.FeatureCardImg2 {
+  width: 337px;
+  height: 380px;
+  margin: 26px 26px 0px 26px;
+
+  align-items: end;
+  background-image: url("../../assets/collection2.png");
+  background-size: contain;
+}
+
+.FeatureCardImg3 {
+  width: 337px;
+  height: 380px;
+  margin: 26px 26px 0px 26px;
+
+  align-items: end;
+  background-image: url("../../assets/collection3.png");
+  background-size: contain;
+}
 .FeatureCardData {
   max-width: 337px;
   width: 100%;

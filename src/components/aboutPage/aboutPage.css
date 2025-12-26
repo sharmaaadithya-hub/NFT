@@ -57,14 +57,14 @@
   font-size: 19px;
   line-height: 180%;
   color: rgba(255, 255, 255, 0.5);
-  text-align: start;
+  /* text-align: start; */
 }
 
 .AboutDatapara button {
   padding: 10px 20px 10px 20px;
   background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
   border-radius: 10px;
-  border: none;
+   border: 0.1px solid   #671ae4;
   margin-top: 30px;
   color: #ffffff;
   font-family: Poppins;
@@ -76,7 +76,8 @@
 
 .AboutDatapara button:hover {
   background: transparent;
-  border: 1px solid #671ae4;
+  border:0.1px solid  white;
+  transition: 0.2s ease-out;
 }
 
 @media screen and (max-width: 1024px) {
@@ -97,6 +98,9 @@
 @media screen and (max-width: 998px) {
   .aboutSection {
     margin-top: 100px;
+  }
+   .paragraph{
+     text-align: center;
   }
 
   .AboutData {
@@ -120,6 +124,11 @@
   .AboutDatapara p {
     font-weight: 500;
     font-size: 15px;
+    text-align: center;
+  }
+
+  .paragraph{
+     text-align: center;
   }
 
   .AboutDatapara button {

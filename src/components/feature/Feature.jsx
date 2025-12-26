@@ -27,7 +27,7 @@ function Feature() {
           </div>
           {/* card2 */}
           <div className='cards'>
-            <div className='cardImg2'>
+            <div className='FeatureCardImg2'>
             </div>
             <div className='cardData'>
               <div className='data1'>
@@ -43,7 +43,7 @@ function Feature() {
           </div>
           {/* card3*/}
           <div className='cards3'>
-            <div className='cardImg3'>
+            <div className='FeatureCardImg3'>
             </div>
             <div className='cardData'>
               <div className='data1'>

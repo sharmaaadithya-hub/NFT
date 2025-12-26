@@ -66,12 +66,13 @@ body {
   padding: 10px 52px 10px 10px;
   background-color: rgba(255, 255, 255, 0.1);
   opacity: 1;
+  color: white;
 }
 
 #connectbtn {
   padding: 10px 20px 10px 20px;
   border-radius: 8px;
-  border: none;
+  border: 0.1px solid   #671ae4;
   outline: none;
   color: #fff;
   background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
@@ -79,16 +80,18 @@ body {
   font-size: 20px;
 }
 
+#connectbtn:hover {
+  background: transparent;
+  border:0.1px solid  white;
+  transition: 0.2s ease-out;
+}
+
 .navHamburger {
   background-color: transparent;
   color: #fff;
   border: none;
   font-size: 25px;
-}
-
-#connectbtn:hover {
-  transform: scale(1.1);
-  transition: 0.7s ease-in-out;
+  cursor: pointer;
 }
 
 .hamburger {
@@ -120,7 +123,9 @@ body {
     gap: 40px;
     list-style: none;
     z-index: 999;
-    transition: 0.2s;
+    transition-duration: 2s;
+    transition-timing-function: step-end;
+    transition-delay: 1s;
     transform: translateX(10px);
   }
 
@@ -144,6 +149,7 @@ body {
 
   .closeIcon {
     margin-left: 127px;
+    margin-top: 25px;
   }
 
   .closeIcon button {
